@@ -2,10 +2,16 @@ import React, { useState } from "react";
 
 function CountUp(){
 
+    const [ count, setCount ] = useState(0)  
+
+    setInterval(() => {
+        setCount(count)
+    }, 1000)
+    
     return (
             <div>
                 <center>
-                    <h4 className="time-text">0</h4>
+                    <h4 className="time-text">{count}</h4>
                 </center>
             </div>
     )

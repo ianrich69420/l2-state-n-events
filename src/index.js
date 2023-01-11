@@ -8,9 +8,11 @@ import './index.css';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-      {/* <CountUp/>
+      {<div>
+         <CountUp/>
       <CountDown/>
-      <CountMiddle/> */}
+      <CountMiddle/> 
+      </div>}
   </React.StrictMode>
 );
 
